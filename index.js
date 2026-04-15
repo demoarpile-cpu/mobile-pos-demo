@@ -25,7 +25,8 @@ app.use(morgan('dev'));
 
 const allowedOrigins = [
   "https://posmobile.kiaantechnology.com",
-  "http://localhost:3000"
+  "http://localhost:3000",
+  "http://localhost:5174"
 ];
 
 app.use(
